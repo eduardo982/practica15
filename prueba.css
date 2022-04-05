@@ -1,0 +1,45 @@
+.grid-container{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "caja1 caja2 caja3 caja4"
+    "caja5 caja5 caja3 caja4"
+    "caja5 caja5 caja6 caja7"
+    "caja8 caja8 caja8 caja7" ;
+    gap: 2px;
+}
+.caja1{
+    grid-area:caja1;
+    background-color: aqua;
+}
+.caja2{
+    grid-area:caja2;
+    background-color:aquamarine;
+}
+.caja3{
+    grid-area:caja3;
+    background-color:yellowgreen;
+}
+.caja4{
+    grid-area:caja4;
+    background-color:bisque;
+}
+.caja5{
+    grid-area:caja5;
+    background-color:blueviolet;
+}
+.caja6{
+    grid-area:caja6;
+    background-color:brown;
+}
+.caja7{
+    grid-area:caja7;
+    background-color:cadetblue;
+}
+.caja8{
+    grid-area:caja8;
+    background-color:darkseagreen;
+}
